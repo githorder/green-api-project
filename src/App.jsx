@@ -11,7 +11,7 @@ function App() {
   const [chats, setChats] = useState([]);
   const [selectedChat, setSelectedChat] = useState(null);
 
-  return userAccount !== null ? (
+  return userAccount === null ? (
     <Auth setUserAccount={setUserAccount} />
   ) : (
     <div className="app">
