@@ -1,0 +1,28 @@
+.sidebar-container {
+  background-color: #fff;
+  height: 100vh;
+  width: 30%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.sidebar-header {
+  background-color: #f0f2f5;
+  height: 60px;
+  border-right: 1px solid #ccc;
+}
+
+.phone-container {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+
+.phone-input {
+  outline: none;
+  border: 1px solid #eee;
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
